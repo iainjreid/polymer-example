@@ -1,0 +1,7 @@
+# Ignore all IDE generated files
+.vscode
+
+# Ignore all Node.js, NPM, and Bower related paths
+node_modules
+bower_components
+npm-debug.log

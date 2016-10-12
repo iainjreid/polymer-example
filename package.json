@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "postinstall": "bower install",
+    "start": "polymer serve"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "polymer-cli": "^0.16.0"
+  },
+  "license": "MIT",
+  "private": true
+}
