@@ -5,7 +5,8 @@
   },
   "devDependencies": {
     "bower": "^1.7.9",
-    "polymer-cli": "^0.16.0"
+    "polymer-cli": "^0.16.0",
+    "vulcanize": "^1.14.8"
   },
   "license": "MIT",
   "private": true

@@ -1,0 +1,26 @@
+<link rel="import" href="../bower_components/polymer/polymer.html" />
+
+<dom-module id="pe-navbar">
+	<template>
+		<div>
+			<h1>{{title}}</h1>
+		</div>
+	</template>
+
+	<script>
+    Polymer({
+      is: 'pe-navbar',
+      properties: {
+        title: {
+          type: Number,
+
+        }
+      },
+      ready: function () {
+        console.log('PE Navbar ready');
+
+        this.title = 'Polymer Example'
+      }
+    })
+  </script>
+</dom-module>
