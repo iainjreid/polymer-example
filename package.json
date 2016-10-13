@@ -2,6 +2,7 @@
   "name": "polymer-example",
   "scripts": {
     "postinstall": "bower install",
+    "build": "vulcanize index.html --inline-script --inline-css --out-html build/index.html",
     "start": "polymer serve"
   },
   "devDependencies": {
