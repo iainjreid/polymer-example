@@ -6,7 +6,8 @@
     "bower_components"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.0.0"
+    "polymer": "Polymer/polymer#^1.0.0",
+    "paper-toolbar": "PolymerElements/paper-toolbar#^1.1.7"
   },
   "license": "MIT",
   "private": true
