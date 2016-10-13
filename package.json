@@ -1,4 +1,5 @@
 {
+  "name": "polymer-example",
   "scripts": {
     "postinstall": "bower install",
     "start": "polymer serve"

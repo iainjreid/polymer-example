@@ -1,4 +1,5 @@
 {
+  "name": "polymer-example",
   "ignore": [
     "**/.*",
     "node_modules",
