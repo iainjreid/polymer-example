@@ -1,9 +1,5 @@
 'use strict'
 
-class PeRoot {
-  ready () {
-    console.log('PE Root ready')
-  }
-}
-
-Polymer(PeRoot)
+Polymer({
+  is: 'pe-root',
+});

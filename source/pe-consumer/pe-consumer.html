@@ -1,0 +1,12 @@
+<link rel="import" href="../pe-service/pe-service.html" />
+
+<dom-module id="pe-consumer">
+  <template>
+    <pe-service id="peService"></pe-service>
+
+    <input value="{{object.value::input}}">
+    <p>Local value: [[object.value]]</p>
+    <button on-click="logValue">Log value</button>
+  </template>
+  <script src="./pe-consumer.js"></script>
+</dom-module>

@@ -2,13 +2,12 @@
   "name": "polymer-example",
   "scripts": {
     "postinstall": "bower install",
-    "build": "vulcanize index.html --inline-script --inline-css --out-html build/index.html",
+    "build": "polymer build",
     "start": "polymer serve"
   },
   "devDependencies": {
     "bower": "^1.7.9",
-    "polymer-cli": "^0.16.0",
-    "vulcanize": "^1.14.8"
+    "polymer-cli": "^0.17.0"
   },
   "license": "MIT",
   "private": true
